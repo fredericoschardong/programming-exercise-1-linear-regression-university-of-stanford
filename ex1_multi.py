@@ -7,7 +7,7 @@ from ex1 import gradient_descent, plot_cost_history
 # Second data to analyse, this one has three dimensions -> linear regression with multiple variables
 
 ## Import data
-data = np.loadtxt("Ex1/ex1data2.txt", delimiter=",")
+data = np.loadtxt("ex1data2.txt", delimiter=",")
 
 X = data[:, 0:2]
 y = data[:, 2]
@@ -51,7 +51,7 @@ print()
 # Now let's rework the previous example using closed-form solution to linear regresion (normal equations) instead of error minimisation
 
 ## Import data
-data = np.loadtxt("Ex1/ex1data2.txt", delimiter=",")
+data = np.loadtxt("ex1data2.txt", delimiter=",")
 
 X = data[:, 0:2]
 y = data[:, 2]

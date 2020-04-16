@@ -45,7 +45,7 @@ def plot_cost_history(cost_history):
 if __name__ == '__main__':
 	# Initialization
 	## Import data
-	data = np.loadtxt("Ex1/ex1data1.txt", delimiter=",")
+	data = np.loadtxt("ex1data1.txt", delimiter=",")
 
 	## Initialize important variables
 	m = data.shape[0]
